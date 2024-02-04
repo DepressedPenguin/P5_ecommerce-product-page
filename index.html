@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Product - Price</title>
+</head>
+<body>
+<!-- MAKE THE NAV -->
+    <div class="site_container">
+        <nav class="nav">
+            <!-- ELEMENTS -->
+            <div class="logo_place">
+                <img src="/imgs/logo.svg">
+            </div>
+            <div class="nav_items">
+                <!-- MAKE LIST -->
+                <ul class="ul_nav">
+                    <li>Collections</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <!-- AVATAR ICON PROFILE -->
+            <div class="avatar_and_icon">
+                <div class="icon_buy">
+                    <img class="fix_icon" src="/imgs/icon-cart.svg">
+                </div>
+                <div class="icon_profile">
+                    <img class="fix_icon" src="/imgs/image-avatar.png">
+                </div>
+            </div>
+        </nav>
+        <!-- CONTAINER_SHOP ITEM ============ -->
+        <div class="container_card_item">
+            <div class="shop_now_item">
+                <!-- MAIN IMG WITH SMALL IMGS -->
+                <div class="main_img">
+                    <!-- MAIN IMG SRC -->
+                    <img id="fix_img_main" src="/imgs/image-product-1.jpg">
+                </div>
+                <div class="small_imgs">
+                    <div onclick="hand_click1()" id="img_1" class="img_small">
+                        <img id="img_1" class="img_small_fix sm_1" src="/imgs/image-product-2.jpg">
+                        <span onclick="down_this1()" id="close_image">X</span>
+                    </div>
+                    <div onclick="hand_click2()" id="img_2" class="img_small">
+                        <img class="img_small_fix" src="/imgs/image-product-3.jpg">
+                        <span onclick="down_this2()" id="close_image">X</span>
+                    </div>
+                    <div onclick="hand_click3()" id="img_3" class="img_small">
+                        <img class="img_small_fix" src="/imgs/image-product-4.jpg">
+                        <span onclick="down_this3()" id="close_image">X</span>
+                    </div>
+                    <div onclick="hand_click4()" id="img_4" class="img_small">
+                        <img class="img_small_fix" src="/imgs/image-product-1-thumbnail.jpg">
+                        <span onclick="down_this4()" id="close_image">X</span>
+                    </div>
+                    <!-- PLACE FOR CLOSE WINDOW -->
+                </div>
+            </div>
+            <!-- OTHER INFO FOR THE ITEM -->
+            <div class="shop_now_item_info">
+                <div class="company_name">
+                    <p>SNEAKER COMPANY</p>
+                </div>
+                <div class="Title_Product">
+                    <h1>Fall Limited Edition<br>Sneakers</h1>
+                </div>
+                <div class="p_info_about_product">
+                    <p>These low-profile sneakers are you prefect casual wear<br>
+                        companion. Featuring a durable rubber outer sole. They'll<br>
+                        widthstand everything the weather can offer.</p>
+                </div>
+                <div class="price_and_discount">
+                    <div class="price">
+                        <p>$125.00</p>
+                    </div>
+                    <div class="price_discount">
+                        <p>50%</p>
+                    </div>
+                </div>
+                <div class="new_price">
+                    <p>$250.00</p>
+                </div>
+                <div class="add_card_product">
+                    <div class="add_card">
+                        <button onclick="remove_pro()">-</button>
+                        <p id="add_new_product">0</p>
+                        <button onclick="add_pro()">+</button>
+                    </div>
+                    <div class="add_card_btn">
+                        <img src="/imgs/icon-cart.svg">
+                        <p>Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<script src="/js/script.js"></script>
+</body>
+</html>

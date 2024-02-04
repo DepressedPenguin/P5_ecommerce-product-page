@@ -1,0 +1,361 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.nav{
+    width: 85%;
+    margin: auto;
+    height: 100px;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid grey;
+    /* USE THE GRID */
+    display: grid;
+    grid-template-columns: 20% 40% auto;
+    grid-template-rows: 98px;
+    grid-gap: 10px;
+}
+
+.logo_place{
+    /* background-color: wheat; */
+    display: flex;
+    /* border: 1px solid black; */
+    color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.elements_nav{
+    /* background-color: wheat; */
+    /* border: 1px solid black; */
+}
+
+.nav_items{
+    /* background-color: wheat; */
+    /* border: 1px solid black; */
+}
+
+/* UL NAV */
+
+.ul_nav{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* LIKE REMOVE STYLE */
+
+li{
+    list-style: none;
+}
+
+/* AVATAR ICON */
+
+.avatar_and_icon{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-gap: 50px;
+    float: right;
+    width: 100%;
+}
+
+.icon_buy{
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid black; */
+}
+
+.icon_profile{
+    width: 55px;
+    height: 55px;
+    /* border: 1px solid black; */
+}
+
+.fix_icon{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* SHOP CARD CONTAINER */
+
+.container_card_item{
+    width: 85%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 440px;
+    /* border: 1px solid red; */
+    padding: 30px;
+    grid-gap: 10px;
+}
+
+.shop_now_item{
+    /* border: 1px solid black; */
+}
+
+/* MAIN IMG */
+
+.main_img{
+    width: 100%;
+    padding: 20px;
+    height: 70%;
+    /* border: 1px solid black; */
+}
+
+#fix_img_main{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SMALL IMGS */
+
+.small_imgs{
+    width: 100%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30%;
+    /* border: 1px solid black; */
+}
+
+.img_small{
+    width: 23%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+/* FIX SIZE IMG */
+
+.img_small_fix{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sm_1{
+    /* opacity: 0.5; */
+}
+
+/* SHOP NOW INFO ITEM */
+
+.shop_now_item_info{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 8% 25% 20% 13% 10% 18%;
+    padding: 40px;
+    grid-gap: 10px;
+}
+
+.company_name{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 3px;
+    color: orange;
+}
+
+.Title_Product{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding: 5px;
+    color: black;
+}
+
+.p_info_about_product{
+    color: grey;
+    line-height: 25px;
+}
+
+.price_and_discount{
+    /* border: 1px solid black; */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.price{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.price_discount{
+    color: rgba(255, 255, 255, 0.589);
+    background-color: rgb(255 125 27);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.new_price{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 3px;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.add_card_product{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.add_card{
+    width:30%;
+    display: flex;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    justify-content: space-evenly;
+    color: black;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.add_card_btn{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: black;
+    background-color: rgb(255 125 27);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(255 125 27) ;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+
+
+/* STYLE BTN */
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 33px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    color: orange;
+}
+
+.add_card p{
+    font-size: 20px;
+}
+
+.box_info{
+    background-color: #353535;
+}
+
+/* MAKE UNIQ STYLE FOR THE PREVIEW CARD */
+
+.preview_card{
+    width:65vw;
+    cursor: pointer;
+    height: 55vh;
+    transition:width 0.9s ease-in-out;
+    position: absolute;
+    object-fit: cover;
+    top: 200px;
+    right:200px;
+}
+
+#close_image{
+    /* border: 1px solid white; */
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 5px;
+    /*  */
+    position: absolute;
+    right: 0px;
+}
+
+#img2{
+    position: relative;
+}
+
+/* MAKE IT RESPO */
+@media screen and (max-width: 1080px) {
+    .nav{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+   .container_card_item{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    /* margin-bottom: 200px; */
+   }
+
+   nav{
+    /* background-color: orange;
+    height: 100px; */
+    /* margin-top: 200px; */
+   }
+
+   .logo_place{
+    /* background-color: orange; */
+    height: 50px;
+    margin-top: 15px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+   }
+
+   .ul_nav{
+    display: none;
+   }
+
+   .avatar_and_icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    right: 0;
+    width:100%;
+    /* background-color: red; */
+   }
+
+   .price,.price_discount{
+    margin-top: 45px;
+   }
+
+   .add_card_btn img{
+    display: none;
+   }
+
+  }
